@@ -15,6 +15,31 @@ import { LanguageProvider } from './LanguageContext';
 const App: React.FC = () => {
   const [view, setView] = useState<'home' | 'about' | 'services' | 'news' | 'privacy'>('home');
 
+  // Protection logic: Disable right-click and common shortcuts
+  useEffect(() => {
+    const handleContextMenu = (e: MouseEvent) => {
+      e.preventDefault();
+    };
+
+    const handleKeyDown = (e: KeyboardEvent) => {
+      // Disable Ctrl+C, Ctrl+U (view source), Ctrl+S (save), F12 (dev tools)
+      if (
+        (e.ctrlKey && (e.key === 'c' || e.key === 'u' || e.key === 's' || e.key === 'i' || e.key === 'j')) ||
+        e.key === 'F12'
+      ) {
+        e.preventDefault();
+      }
+    };
+
+    document.addEventListener('contextmenu', handleContextMenu);
+    document.addEventListener('keydown', handleKeyDown);
+
+    return () => {
+      document.removeEventListener('contextmenu', handleContextMenu);
+      document.removeEventListener('keydown', handleKeyDown);
+    };
+  }, []);
+
   // Ensure scroll to top when view changes
   useEffect(() => {
     window.scrollTo(0, 0);
