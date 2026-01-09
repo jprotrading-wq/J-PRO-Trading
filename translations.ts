@@ -22,7 +22,7 @@ export const translations = {
     subtitle: { 
       EN: 'Beyond simple trade, we bridge visions to create a sustainable win-win future for every partner in the global market.', 
       KR: '단순한 무역을 넘어 파트너의 비전을 연결합니다. 전 세계 시장에서 함께 성장하는 진정한 윈윈(Win-Win)의 시작.', 
-      CN: '超越贸易，连接愿경。通过共赢方案，与您一同开启全球商业的新篇章。', 
+      CN: '超越贸易，连接愿景。通过共赢方案，与您一同开启全球商业的新篇章。', 
       JP: '単なる貿易を超え、パートナーのビジョンを繋ぎます。共に成長するためのウィンウィン・ソリューション。', 
       TH: 'ก้าวข้ามขีดจำกัดการค้าเพื่อเชื่อมโยงวิสัยทัศน์ของคุณ สู่ความสำเร็จแบบ Win-Win อย่างยั่งยืนในตลาดโลก',
       VN: 'Vượt xa thương mại đơn thuần, chúng tôi kết nối tầm nhìn để tạo ra tương lai bền vững cho mọi đối tác.',
@@ -52,11 +52,21 @@ export const translations = {
       ID: 'Arsitek Rantai Pasokan Global.',
       MY: 'Arkitek Rangkaian Bekalan Global.'
     },
+    quote: {
+      EN: "We go beyond mere transactions to become a bridge that turns our partners' dreams into reality. Trust is our strongest asset, and professionalism is our only standard.",
+      KR: "우리는 단순한 거래를 넘어, 전 세계 파트너사들이 꿈꾸는 미래를 현실로 만드는 징검다리가 되고자 합니다. 신뢰는 우리의 가장 강력한 자산이며, 전문성은 우리의 유일한 기준입니다.",
+      CN: "我们超越单纯的交易，成为将合作伙伴的梦想变为现实的桥梁。 信任是我们最强大的资产，专业是我们唯一的标准。",
+      JP: "私たちは単なる取引を超え、パートナー企業の皆様の夢を現実にする架け橋となります。信頼は私たちの最大の資産であり、専門性は私たちの唯一の基準です。",
+      TH: "เราไปไกลกว่าการทำธุรกรรมเพียงอย่างเดียว เพื่อเป็นสะพานเชื่อมที่เปลี่ยนความฝันของพันธมิตรให้กลายเป็นความจริง",
+      VN: "Chúng tôi vượt xa các giao dịch đơn thuần để trở thành cầu nối biến ước mơ của đối tác thành hiện thực.",
+      ID: "Kami melampaui sekadar transaksi untuk menjadi jembatan yang mengubah impian mitra kami menjadi kenyataan.",
+      MY: "Kami melampaui sekadar transaksi untuk menjadi jambatan yang mengubah impian rakan kongsi kami menjadi kenyataan."
+    },
     p1: { 
       EN: 'J PRO Trading is not just a distributor; we are a strategic partner dedicated to navigating the complexities of international commerce. We believe that every transaction is an opportunity to build a lasting legacy of trust.', 
       KR: 'J PRO Trading은 단순한 유통사를 넘어 국제 무역의 복잡함을 함께 해결해 나가는 전략적 파트너입니다. 우리는 모든 거래가 지속 가능한 신뢰의 유산을 쌓는 기회라고 믿습니다.', 
       CN: 'J PRO Trading 不仅仅是一家分销商； 我们是致力于应对国际贸易复杂性的战略合作伙伴。 我们相信，每一次交易都是建立持久信任遗产的机会。', 
-      JP: 'J PRO Tradingは単なる商社ではなく、国際貿易の複雑な課題を共に解決していく戦略적パートナーです。私たちは、すべての取引が持続可能な信頼を築く機会であると信じています。', 
+      JP: 'J PRO Tradingは単なる商社ではなく、国際貿易の複雑な課題を共に解決していく戦略的パートナーです。私たちは、すべての取引가持続可能な信頼を築く機会であると信じています。', 
       TH: 'J PRO Trading ไม่ใช่แค่ผู้จัดจำหน่าย แต่เราเป็นพันธมิตรเชิงกลยุทธ์ที่อุทิศตนเพื่อนำทางความซับซ้อนของการค้าระหว่างประเทศ',
       VN: 'J PRO Trading không chỉ là nhà phân phối; chúng tôi là đối tác chiến lược giải quyết các thách thức của thương mại quốc tế.',
       ID: 'J PRO Trading bukan sekadar distributor; kami adalah mitra strategis yang berdedikasi untuk menavigasi kompleksitas perdagangan internasional.',
@@ -75,11 +85,11 @@ export const translations = {
     values: {
       title: { EN: 'Core Values', KR: '핵심 가치', CN: '核心价值', JP: 'コアバリュー', TH: 'ค่านิยมหลัก', VN: 'Giá trị cốt lõi', ID: 'Nilai Inti', MY: 'Nilai Teras' },
       v1: { EN: 'Unwavering Integrity', KR: '흔들리지 않는 정직함', CN: '坚定的诚信', JP: '揺るぎない誠実さ', TH: 'ความซื่อสัตย์ที่มั่นคง', VN: 'Sự chính trực kiên định', ID: 'Integritas Tak Tergoyahkan', MY: 'Integriti Yang Teguh' },
-      v1_desc: { EN: 'We build relationships on transparency and ethical conduct.', KR: '우리는 투명성과 윤리적 행동을 바탕으로 관계를 구축합니다.', CN: '我们以透明和道德的行为建立关系。', JP: '私たちは透明性と倫理的な行動に基づいた信頼関係를 구축합니다.', TH: 'เราสร้างความสัมพันธ์บนความโปร่งใส', VN: 'Chúng tôi xây dựng quan hệ dựa trên sự minh bạch và đạo đức.', ID: 'Kami membangun hubungan berdasarkan transparansi dan perilaku etis.', MY: 'Kami membina hubungan berasaskan ketelusan dan tingkah laku beretika.' },
-      v2: { EN: 'Strategic Innovation', KR: '전략적 혁신', CN: '战略创新', JP: '戦略的イノベーション', TH: 'นวัตกรรมเชิงกลยุทธ์', VN: 'Đổi mới chiến lược', ID: 'Inovasi Strategis', MY: 'Inovasi Strategik' },
+      v1_desc: { EN: 'We build relationships on transparency and ethical conduct.', KR: '우리는 투명성과 윤리적 행동을 바탕으로 관계를 구축합니다.', CN: '我们以透明和道德的行为建立关系。', JP: '私たちは透明性と倫理的な行動に基づいた信頼関係を構築します。', TH: 'เราสร้างความสัมพันธ์บนความโปร่งใส', VN: 'Chúng tôi xây dựng quan hệ dựa trên sự minh bạch và đạo đức.', ID: 'Kami membangun hubungan berdasarkan transparansi dan perilaku etis.', MY: 'Kami membina hubungan berasaskan ketelusan dan tingkah laku beretika.' },
+      v2: { EN: 'Strategic Innovation', KR: '전략적 혁신', CN: '战略创新', JP: '戦略적イノベーション', TH: 'นวัตกรรมเชิงกลยุทธ์', VN: 'Đổi mới chiến lược', ID: 'Inovasi Strategis', MY: 'Inovasi Strategik' },
       v2_desc: { EN: 'Constantly optimizing logistics to lead the market.', KR: '시장 선도를 위해 끊임없이 물류를 최적화합니다.', CN: '不断优化物流以引领市场。', JP: '市場をリードするため、物流の最適化に絶えず取り組んでいます。', TH: 'เพิ่มประสิทธิภาพโล지스틱스อย่างต่อเนื่อง', VN: 'Không ngừng tối ưu hóa hậu cần để dẫn đầu thị trường.', ID: 'Terus mengoptimalkan logistik untuk memimpin pasar.', MY: 'Sentiasa mengoptimumkan logistik untuk menerajui pasaran.' },
       v3: { EN: 'Mutual Growth', KR: '동반 성장', CN: '共同成长', JP: '共生共栄', TH: 'การเติบโตไปด้วยกัน', VN: 'Cùng nhau phát triển', ID: 'Pertumbuhan Bersama', MY: 'Pertumbuhan Bersama' },
-      v3_desc: { EN: 'Our success is measured by the success of our partners.', KR: '우리의 성공은 파트너사의 성공으로 측정됩니다.', CN: '我们的成功取决于合作伙伴의성공。', JP: '私たちの成功は、パートナー企業の成功によって測られます。', TH: 'ความสำเร็จของเราวัดจากความสำเร็จของพันธมิตร', VN: 'Thành công của chúng tôi được đo bằng thành công của đối tác.', ID: 'Kesuksesan kami diukur dari kesuksesan mitra kami.', MY: 'Kejayaan kami diukur melalui kejayaan rakan kongsi kami.' }
+      v3_desc: { EN: 'Our success is measured by the success of our partners.', KR: '우리의 성공은 파트너사의 성공으로 측정됩니다.', CN: '我们的成功取决于合作伙伴的成功。', JP: '私たちの成功は、パートナー企業の成功によって測られます。', TH: 'ความสำเร็จของเราวัดจากความสำเร็จของพันธมิตร', VN: 'Thành công của chúng tôi được đo bằng thành công của đối tác.', ID: 'Kesuksesan kami diukur dari kesuksesan mitra kami.', MY: 'Kejayaan kami diukur melalui kejayaan rakan kongsi kami.' }
     },
     brands: { EN: 'Global Brands', KR: '글로벌 브랜드', CN: '全球品牌', JP: 'グローバルブランド', TH: 'แบรนด์ระดับโลก', VN: 'Thương hiệu toàn cầu', ID: 'Merek Global', MY: 'Jenama Global' },
     countries: { EN: 'Countries', KR: '진출 국가', CN: '覆盖国家', JP: '進出国', TH: 'ประเทศ', VN: 'Quốc gia', ID: 'Negara', MY: 'Negara' },
@@ -89,12 +99,12 @@ export const translations = {
     subtitle: { EN: 'Comprehensive Trade Solutions', KR: '포괄적인 무역 솔루션', CN: '全面的贸易解决方案', JP: '包括的な貿易ソリューション', TH: 'โซลูชั่นการค้าที่ครอบคลุม', VN: 'Giải pháp thương mại toàn diện', ID: 'Solusi Perdagangan Komprehensif', MY: 'Penyelesaian Perdagangan Komprehensif' },
     s1_title: { EN: 'Global Wholesale', KR: '글로벌 도매', CN: '全球批发', JP: 'グローバル卸売', TH: 'ขายส่งทั่วโลก', VN: 'Bán buôn toàn cầu', ID: 'Grosir Global', MY: 'Borong Global' },
     s1_desc: { EN: 'Large-scale distribution and competitive pricing for world-class brands.', KR: '세계적인 브랜드의 대규모 유통 및 경쟁력 있는 가격 공급.', CN: '为世界级品牌提供大规模分销和极具竞争力的定价。', JP: '世界的なブランドの大規模な流通と、競争力のある価格提供。', TH: 'การจัดจำหน่ายขนาดใหญ่สำหรับแบรนด์ระดับโลก', VN: 'Phân phối quy mô lớn và giá cả cạnh tranh cho các thương hiệu đẳng cấp thế giới.', ID: 'Distribusi skala besar dan harga kompetitif untuk merek kelas dunia.', MY: 'Pengedaran berskala besar dan harga kompetitif untuk jenama bertaraf dunia.' },
-    s2_title: { EN: 'Premium Retail', KR: '프리미엄 리테일', CN: '高端零售', JP: 'プレミアム小売', TH: 'ขายปลีกพรีเมียม', VN: 'Bán lẻ cao cấp', ID: 'Ritel Premium', MY: 'Runcit Premium' },
-    s2_desc: { EN: 'Tailored retail strategies targeting high-end luxury markets.', KR: '하이엔드 마켓을 타겟으로 한 맞춤형 리테일 전략.', CN: '针对高端奢侈品市场的定制零售策略。', JP: 'ハイエンド市場をターゲットとした、カスタマイズされた小売戦略。', TH: 'กลยุทธ์การขายปลีกที่ปรับแต่งมา', VN: 'Chiến lược bán lẻ được điều chỉnh cho các thị trường xa xỉ cao cấp.', ID: 'Strategi ritel khusus yang menargetkan pasar mewah kelas atas.', MY: 'Strategi runcit tersuai yang mensasarkan pasaran mewah mewah.' },
+    s2_title: { EN: 'Premium Retail', KR: '프리미엄 리테일', CN: '高端零售', JP: 'プレミアム小売', TH: 'ขายปลีกพ미엄', VN: 'Bán lẻ cao cấp', ID: 'Ritel Premium', MY: 'Runcit Premium' },
+    s2_desc: { EN: 'Tailored retail strategies targeting high-end luxury markets.', KR: '하이엔드 마켓을 타겟으로 한 맞춤형 리테일 전략.', CN: '针对高端奢侈品市场的定制零售策略。', JP: 'ハイエンド市場をターゲットとした、カスタマイ즈された小売戦略。', TH: 'กลยุทธ์การ판매ปลีกที่ปรับแต่งมา', VN: 'Chiến lược bán lẻ được điều chỉnh cho các thị trường xa xỉ cao cấp.', ID: 'Strategi ritel khusus yang menargetkan pasar mewah kelas atas.', MY: 'Strategi runcit tersuai yang mensasarkan pasaran mewah mewah.' },
     s3_title: { EN: 'Trade & Logistics', KR: '무역 및 물류', CN: '贸易与物流', JP: '貿易・物流', TH: 'การค้าและโล지스틱ส์', VN: 'Thương mại & Hậu cần', ID: 'Perdagangan & Logistik', MY: 'Perdagangan & Logistik' },
-    s3_desc: { EN: 'Customs clearance and optimized supply chain management solutions.', KR: '수출입 통관 및 최적화된 공급망 관리 솔루션.', CN: '进出口清关及优化的供应链管理解决方案。', JP: '輸出入通関および最適化されたサプライチェーン管理ソリューション。', TH: 'การพิธีการศุลกากรและโซลูชั่นการจัดการ', VN: 'Thông quan và các giải pháp quản lý chuỗi cung ứng tối ưu.', ID: 'Bea cukai dan solusi manajemen rantai pasokan yang dioptimalkan.', MY: 'Pelepasan kastam dan penyelesaian pengurusan rantaian bekalan yang dioptimumkan.' },
+    s3_desc: { EN: 'Customs clearance and optimized supply chain management solutions.', KR: '수출입 통관 및 최적화된 공급망 관리 솔루션.', CN: '进出口清关及优化的供应链管理解决方案。', JP: '輸出入通関および最適化されたサプライチェーン管理ソリューション。', TH: 'การพิธีการศุลกากร와โซลูชั่นการจัดการ', VN: 'Thông quan và các giải pháp quản lý chuỗi cung ứng tối ưu.', ID: 'Bea cukai dan solusi manajemen rantai pasokan yang dioptimalkan.', MY: 'Pelepasan kastam dan penyelesaian pengurusan rantaian bekalan yang dioptimumkan.' },
     pageHeader: { EN: 'Global Trade Excellence', KR: '글로벌 무역의 정점', CN: '全球贸易卓越', JP: 'グローバル貿易の頂点', TH: 'ความเป็นเลิศทางการค้าระหว่างประเทศ', VN: 'Xuất sắc trong thương mại toàn cầu', ID: 'Keunggulan Perdagangan Global', MY: 'Kecemerlangan Perdagangan Global' },
-    pageSubtitle: { EN: 'Strategic Partner for Your Global Business Expansion.', KR: '당신의 글로벌 비즈니스 확장을 위한 전략적 파트너.', CN: '您全球业务扩张的战略合作伙伴。', JP: 'グローバルビジネス拡大のための戦略的パートナー。', TH: 'พันธมิตรเชิงกลयุทธ์สำหรับการขยายธุรกิจ', VN: 'Đối tác chiến lược cho việc mở rộng kinh doanh toàn cầu của bạn.', ID: 'Mitra Strategis untuk Ekspansi Bisnis Global Anda.', MY: 'Rakan Strategik untuk Pengembangan Perniagaan Global Anda.' },
+    pageSubtitle: { EN: 'Strategic Partner for Your Global Business Expansion.', KR: '당신의 글로벌 비즈니스 확장을 위한 전략적 파트너.', CN: '您全球业务扩张的战略合作伙伴。', JP: 'グローバルビジネス拡大のための戦略的パートナー。', TH: 'พันธมิตรเชิงกลยุทธ์สำหรับการขยายธุรกิจ', VN: 'Đối tác chiến lược cho việc mở rộng kinh doanh toàn cầu của bạn.', ID: 'Mitra Strategis untuk Ekspansi Bisnis Global Anda.', MY: 'Rakan Strategik untuk Pengembangan Perniagaan Global Anda.' },
     exportSection: {
       title: { EN: 'Global Export Excellence', KR: '글로벌 수출 사업', CN: '全球出口业务', JP: 'グローバル輸出事業', TH: 'ความเป็นเลิศในการส่งออกทั่วโลก', VN: 'Xuất khẩu toàn cầu xuất sắc', ID: 'Keunggulan Ekspor Global', MY: 'Kecemerlangan Eksport Global' },
       subtitle: { EN: 'Bringing the Best of Brands to the World', KR: '최고의 브랜드를 세계 시장으로', CN: '将最好的品牌带向世界', JP: '最高のブランドを世界市場へ', TH: 'นำแบรนด์ที่ดีที่สุดสู่สายตาชาวโลก', VN: 'Mang những thương hiệu tốt nhất đến với thế giới', ID: 'Membawa Merek Terbaik ke Dunia', MY: 'Membawa Jenama Terbaik ke Dunia' },
@@ -108,12 +118,12 @@ export const translations = {
   },
   news: {
     header: { EN: 'Latest Insights', KR: '최신 인사이트', CN: '最新见解', JP: '最新インサイト', TH: 'ข้อมูลเชิงลึกที่สำคัญ', VN: 'Cập nhật mới nhất', ID: 'Wawasan Terbaru', MY: 'Wawasan Terkini' },
-    subtitle: { EN: 'News & Updates', KR: '뉴스 및 업데이트', CN: '新闻与动态', JP: 'ニュース＆アップデート', TH: 'ข่าวสารและอัปเดต', VN: 'Tin tức & Cập nhật', ID: 'Berita & Pembaruan', MY: 'Berita & Kemas Kini' },
+    subtitle: { EN: 'News & Updates', KR: '뉴스 및 업데이트', CN: '新闻与动态', JP: '뉴스＆アップデート', TH: 'ข่าวสารและอัปเดต', VN: 'Tin tức & Cập nhật', ID: 'Berita & Pembaruan', MY: 'Berita & Kemas Kini' },
     viewAll: { EN: 'View All Posts', KR: '전체 보기', CN: '查看全部', JP: '全記事を見る', TH: 'ดูโพสต์ทั้งหมด', VN: 'Xem tất cả bài viết', ID: 'Lihat Semua Postingan', MY: 'Lihat Semua Catatan' },
     categories: {
       market: { EN: 'Market Insights', KR: '시장 통찰', CN: '市场见解', JP: '市場インサイト', TH: 'ข้อมูลเชิงลึกของตลาด', VN: 'Thông tin thị trường', ID: 'Wawasan Pasar', MY: 'Wawasan Pasaran' },
-      company: { EN: 'Company News', KR: '회사 뉴스', CN: '公司新闻', JP: '会社ニュース', TH: 'ข่าว회사', VN: 'Tin tức công ty', ID: 'Berita Perusahaan', MY: 'Berita Syarikat' },
-      strategy: { EN: 'Strategy', KR: '전략', CN: '战略', JP: '戦略', TH: 'กลยุทธ์', VN: 'Chiến lược', ID: 'Strategi', MY: 'Strategi' },
+      company: { EN: 'Company News', KR: '회사 뉴스', CN: '公司新闻', JP: '회사 뉴스', TH: 'ข่าว회사', VN: 'Tin tức công ty', ID: 'Berita Perusahaan', MY: 'Berita Syarikat' },
+      strategy: { EN: 'Strategy', KR: '전략', CN: '战略', JP: '战略', TH: 'กลยุทธ์', VN: 'Chiến lược', ID: 'Strategi', MY: 'Strategi' },
     },
     page: {
       title: { EN: 'Partner Offers & Insights', KR: '파트너를 위한 특별한 제안', CN: '合作伙伴优惠与见解', JP: 'パートナー様へのご提案とインサイト', TH: 'ข้อเสนอสำหรับพันธมิตร', VN: 'Ưu đãi & Thông tin cho đối tác', ID: 'Penawaran & Wawasan Mitra', MY: 'Tawaran & Wawasan Rakan Kongsi' },
@@ -125,7 +135,7 @@ export const translations = {
           image: "https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&q=80&w=2074"
         },
         {
-          title: { EN: 'Market Entry Acceleration Program', KR: '시장 진입 가속화 프로그램', CN: '市场进入加速计划', JP: '市場参入加速プログラム', TH: 'โปรแกรมเร่งการเข้าสู่ตลาด', VN: 'Chương trình tăng tốc gia nhập thị trường', ID: 'Program Akselerasi Penetrasi Pasar', MY: 'Program Pecutan Kemasukan Pasaran' },
+          title: { EN: 'Market Entry Acceleration Program', KR: '시장 진입 가속화 프로그램', CN: '市场进入加速计划', JP: '市場参入加速プログラム', TH: 'โปร그램เร่งการเข้าสู่ตลาด', VN: 'Chương trình tăng tốc gia nhập thị trường', ID: 'Program Akselerasi Penetrasi Pasar', MY: 'Program Pecutan Kemasukan Pasaran' },
           desc: { EN: 'Accelerate your brand presence in Asian and European markets through our proven local expertise.', KR: '우리의 검증된 로컬 전문성을 통해 아시아 및 유럽 시장에서 브랜드 인지도를 빠르게 확장하세요.', CN: '通过我们久经考验的本地专业知识，加速您在亚洲和欧洲市场的品牌影响力。', JP: '実証済みのローカルな専門知識を通じて、アジアおよび欧州市場でのブランド認知度を迅速に拡大してください。', TH: 'ขยายการรับรู้แบรนด์ในตลาดเอเชียและยุโรป', VN: 'Thúc đẩy sự hiện diện thương hiệu của bạn tại thị trường Châu Á và Châu Âu thông qua chuyên môn của chúng tôi.', ID: 'Percepat kehadiran merek Anda di pasar Asia dan Eropa melalui keahlian lokal kami yang terbukti.', MY: 'Pecut kehadiran jenama anda di pasaran Asia dan Eropah melalui kepakaran tempatan kami yang terbukti.' },
           image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=2026"
         },
@@ -156,7 +166,7 @@ export const translations = {
         content: { EN: 'We collect information you provide directly to us when contacting us through our messaging services or email.', KR: '우리는 메시지 서비스나 이메일을 통해 귀하가 직접 제공하는 정보를 수집합니다.', CN: '当您通过我们的消息服务或电子邮件与我们联系时，我们会收集您直接提供给我们的信息。', JP: 'メッセージサービスやメールを通じて直接提供された情報を収集します。', TH: 'เราเก็บรวบรวมข้อมูลที่คุณให้ไว้โดยตรง', VN: 'Chúng tôi thu thập thông tin bạn cung cấp trực tiếp cho chúng tôi khi liên hệ qua tin nhắn hoặc email.', ID: 'Kami mengumpulkan informasi yang Anda berikan langsung kepada kami saat menghubungi kami melalui layanan perpesanan atau email.', MY: 'Kami mengumpul maklumat yang anda berikan secara langsung kepada kami apabila menghubungi kami melalui perkhidmatan pesanan atau e-mel.' }
       },
       {
-        title: { EN: '2. How We Use Your Information', KR: '2. 정보 활용 방법', CN: '2. 我们如何使用您的信息', JP: '2. 情報の利用目的', TH: '2. วิธีที่เราใช้ข้อมูลของคุณ', VN: '2. Cách chúng tôi sử dụng thông tin', ID: '2. Bagaimana Kami Menggunakan Informasi Anda', MY: '2. Bagaimana Kami Menggunakan Maklumat Anda' },
+        title: { EN: '2. How We Use Your Information', KR: '2. 정보 활용 방법', CN: '2. 我们如何 사용您的信息', JP: '2. 情報の利用目的', TH: '2. วิธีที่เราใช้ข้อมูลของคุณ', VN: '2. Cách chúng tôi sử dụng thông tin', ID: '2. Bagaimana Kami Menggunakan Informasi Anda', MY: '2. Bagaimana Kami Menggunakan Maklumat Anda' },
         content: { EN: 'Your information is used solely to respond to your inquiries and manage our business partnership.', KR: '귀하의 정보는 귀하의 문의에 응답하고 비즈니스 파트너십을 관리하는 용도로만 사용됩니다.', CN: '您的信息仅用于回复您的咨询并管理我们的业务合作伙伴关系。', JP: 'お客様の情報は、お問い合わせへの回答、およびビジネスパートナーシップの管理目的のみに使用されます。', TH: 'ข้อมูลของคุณจะถูกใช้เพื่อตอบข้อสงสัยเท่านั้น', VN: 'Thông tin của bạn chỉ được sử dụng để trả lời các thắc mắc và quản lý quan hệ đối tác kinh doanh.', ID: 'Informasi Anda digunakan semata-mata untuk menanggapi pertanyaan Anda dan mengelola kemitraan bisnis kami.', MY: 'Maklumat anda digunakan semata-mata untuk menjawab pertanyaan anda dan menguruskan perkongsian perniagaan kami.' }
       }
     ]
@@ -164,7 +174,7 @@ export const translations = {
   footer: {
     desc: { EN: 'J PRO Trading is a strategic partner in global commerce, dedicated to excellence in trade.', KR: 'J PRO Trading은 글로벌 커머스의 전략적 파트너로서 무역 우수성에 전념하고 있습니다.', CN: 'J PRO Trading 是全球商业的战略合作伙伴，致力于卓越贸易。', JP: 'J PRO Tradingは、グローバル・コマースの戦略的パートナーとして、貿易の卓越性に専念しています。', TH: 'J PRO Trading เป็นพันธมิตรเชิงกลยุทธ์ในการพาณิชย์ระดับโลก', VN: 'J PRO Trading là đối tác chiến lược trong thương mại toàn cầu, tận tâm vì sự xuất sắc.', ID: 'J PRO Trading adalah mitra strategis dalam perdagangan global, berdedikasi pada keunggulan.', MY: 'J PRO Trading ialah rakan strategik dalam perdagangan global, berdedikasi kepada kecemerlangan.' },
     messaging: { EN: 'Instant Messaging', KR: '실시간 메시지 문의', CN: '即时通讯', JP: 'インスタントメッセージ', TH: 'ส่งข้อความด่วน', VN: 'Nhắn tin tức thời', ID: 'Pesan Instan', MY: 'Pesanan Segera' },
-    scanToConnect: { EN: 'Scan the QR code to add J PRO Boss', KR: 'QR 코드를 스캔하여 J PRO Boss를 친구로 추가하세요', CN: '扫描二维码添加 J PRO Boss', JP: 'QR코드를 스캔하여 J PRO Boss 를 추가해주세요', TH: 'สแกนคิวอาร์โค้ดเพื่อเพิ่มเพื่อน', VN: 'Quét mã QR để thêm J PRO Boss', ID: 'Pindai kode QR để menambahkan J PRO Boss', MY: 'Imbas kod QR untuk menambah J PRO Boss' },
+    scanToConnect: { EN: 'Scan the QR code to add J PRO Boss', KR: 'QR 코드를 스캔하여 J PRO Boss를 친구로 추가하세요', CN: '扫描二维码添加 J PRO Boss', JP: 'QR코드를 스캔하여 J PRO Boss を追加してください', TH: 'สแกนคิวอาร์โค้ดเพื่อเพิ่มเพื่อน', VN: 'Quét mã QR để thêm J PRO Boss', ID: 'Pindai kode QR untuk menambahkan J PRO Boss', MY: 'Imbas kod QR untuk menambah J PRO Boss' },
     contact: { EN: 'Contact Us', KR: '문의하기', CN: '联系我们', JP: 'お問い合わせ', TH: 'ติดต่อเรา', VN: 'Liên hệ', ID: 'Hubungi Kami', MY: 'Hubungi Kami' },
     address: { EN: '102-3107 Beomeo W, 2436 Dalgubeol-daero, Suseong-gu, Daegu, Republic of Korea', KR: '102-3107 Beomeo W, 2436 Dalgubeol-daero, Suseong-gu, Daegu, Republic of Korea', CN: '102-3107 Beomeo W, 2436 Dalgubeol-daero, Suseong-gu, Daegu, Republic of Korea', JP: '102-3107 Beomeo W, 2436 Dalgubeol-daero, Suseong-gu, Daegu, Republic of Korea', TH: '102-3107 Beomeo W, 2436 Dalgubeol-daero, Suseong-gu, Daegu, Republic of Korea', VN: '102-3107 Beomeo W, 2436 Dalgubeol-daero, Suseong-gu, Daegu, Republic of Korea', ID: '102-3107 Beomeo W, 2436 Dalgubeol-daero, Suseong-gu, Daegu, Republic of Korea', MY: '102-3107 Beomeo W, 2436 Dalgubeol-daero, Suseong-gu, Daegu, Republic of Korea' },
     links: { EN: 'Quick Links', KR: '빠른 링크', CN: '快速链接', JP: 'クイックリンク', TH: 'ลิงก์ด่วน', VN: 'Liên kết nhanh', ID: 'Tautan Cepat', MY: 'Pautan Pantas' },

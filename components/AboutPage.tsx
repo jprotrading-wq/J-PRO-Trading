@@ -42,9 +42,9 @@ const AboutPage: React.FC = () => {
                 <p className="first-letter:text-5xl first-letter:font-bold first-letter:text-[#002366] first-letter:mr-3 first-letter:float-left">
                   {t.p1[language]}
                 </p>
-                <p className="bg-[#F8F9FA] p-8 rounded-2xl border-l-8 border-[#002366] italic text-gray-600">
-                  "우리는 단순한 거래를 넘어, 전 세계 파트너사들이 꿈꾸는 미래를 현실로 만드는 징검다리가 되고자 합니다. 신뢰는 우리의 가장 강력한 자산이며, 전문성은 우리의 유일한 기준입니다."
-                </p>
+                <div className="bg-[#F8F9FA] p-8 rounded-2xl border-l-8 border-[#002366] italic text-gray-600">
+                   "{t.quote[language]}"
+                </div>
                 <p>
                   {t.p2[language]}
                 </p>
